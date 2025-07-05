@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+  margin: 0;
+}
+#app {
+  background: white;
+  padding: 25px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+#timer {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #c0392b;
+}
+.question {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.drop-blank {
+  display: inline-block;
+  border: 2px dashed #ccc;
+  padding: 4px 10px;
+  margin: 0 5px;
+  min-width: 40px;
+  background: #eef;
+  border-radius: 5px;
+}
+.drag-zone {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.drag-choice {
+  padding: 6px 12px;
+  background: #dce3fa;
+  border-radius: 6px;
+  cursor: grab;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+input[type="text"] {
+  padding: 5px 8px;
+  font-size: 15px;
+  width: 120px;
+}
+label {
+  margin-right: 12px;
+}
+.result-answer {
+  background: #f8f8f8;
+  padding: 12px;
+  border-left: 4px solid #3498db;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+}
